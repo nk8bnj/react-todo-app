@@ -9,6 +9,7 @@
 <h2 align="center">
     <sup>React application</sup>
 </h>
+
 ![image](https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png)
 
 <h2 align="center">Running application locally</h2>
