@@ -7,7 +7,7 @@
 </p>
 
 <h2 align="center">
-    <sup>React application</sup>
+    <sup>React application with TypeScript</sup>
 </h>
 
 ![image](https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png)
