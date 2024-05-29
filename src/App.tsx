@@ -1,21 +1,35 @@
 import React from 'react';
-import './App.scss';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+import { UserWarning } from './UserWarning';
+import { USER_ID } from './api/todos';
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+import ErrorNotification from './components/ErrorNotification';
+import TodoFooter from './components/TodoFooter';
+import TodoInput from './components/TodoInput';
+import TodoList from './components/TodoList';
+
+import { useTodos } from './hooks/useTodos';
 
 export const App: React.FC = () => {
+  const { todos } = useTodos();
+
+  if (!USER_ID) {
+    return <UserWarning />;
+  }
+
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="todoapp">
+      <h1 className="todoapp__title">todos</h1>
+
+      <div className="todoapp__content">
+        <TodoInput />
+
+        <TodoList />
+
+        {todos.length > 0 && <TodoFooter />}
+      </div>
+
+      <ErrorNotification />
     </div>
   );
 };
