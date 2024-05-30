@@ -1,4 +1,4 @@
-<h1 align="center">Todo Application</h1>
+<h1 align="center">React Todo App</h1>
 
 <p align="center">
   <a href="https://nk8bnj.github.io/react-todo-app/">
@@ -7,14 +7,20 @@
 </p>
 
 <h2 align="center">
-    <sup>Todo application with React & TypeScript</sup>
+    <sup>Todo list application with API connection. </br> This project was developed using React, TypeScript, HTML, SCSS, Bulma, and the REST API architectural style.</sup>
 </h>
 
 ![image](https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png)
 
-<h2 align="center">Running application locally</h2>
+## Technologies Used
 
-Feel free to explore the code, make improvements, and contribute to the project.
+- HTML, CSS (SCSS)
+- React
+- TypeScript
+- Bulma
+- REST API
+
+<h2 align="center">Running application locally</h2>
 
 To get started:
 
@@ -23,7 +29,7 @@ To get started:
 git clone https://github.com/nk8bnj/react-todo-app
 ```
 
-2. Install the necessary dependencies using:
+2. Install dependencies using Node 14:
 ```
 npm install
 ```
