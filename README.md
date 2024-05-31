@@ -8,9 +8,11 @@
 
 <h2 align="center">
     <sup>Todo list application with API connection. This project was developed using React, TypeScript, HTML, SCSS, Bulma, and the REST API architectural style.</sup>
-</h>
+</h2>
 
-![image](https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png)
+<div align="center">
+  <img src="https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png">
+</div>
 
 <h2 align="center">Technologies Used</h2>
 
