@@ -6,9 +6,9 @@
   </a>
 </p>
 
-<h2 align="center">
-    <sup>Todo list application with API connection. This project was developed using React, TypeScript, HTML, SCSS, Bulma, and the REST API architectural style.</sup>
-</h2>
+<h3 align="center">
+    <sup>Todo list application with API connection. This project was developed using </br> React, TypeScript, HTML, SCSS, Bulma, and the REST API architectural style.</sup>
+</h3>
 
 <div align="center">
   <img src="https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png">
