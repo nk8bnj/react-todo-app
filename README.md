@@ -12,7 +12,7 @@
 
 ![image](https://github.com/nk8bnj/react-todo-app/blob/main/public/Screenshot.png)
 
-## Technologies Used
+<h2 align="center">Technologies Used</h2>
 
 - HTML, CSS (SCSS)
 - React
